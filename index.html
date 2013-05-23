@@ -10,17 +10,21 @@
       margin:0px;
       padding:0px;
     }
-    
+    body {
+      color: #fff;
+      background: #edbede url('paint.png') top center no-repeat;
+ 
+    }
     #octocat {
       display: block;
       width:384px;
       margin: 50px auto;
     }
     
-    p {
+  h1 {
       display: block;
-      width: 400px;
-      margin: 50px auto;
+      width: 600px;
+      margin: 20px auto;
       font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
     }
     #rainbow-message {
@@ -31,7 +35,17 @@
       -moz-box-shadow: -5px 10px 15px gray;
       font-family: sans-serif;
     }
-    
+    p{
+      font-size: 12px;
+      margin-bottom: 30px;
+      line-height: 20px;
+    }
+
+    #main {
+      background: rgba(0,0,0,.6);
+      margin: 10%;
+      padding: 20px;
+    }
   </style>
   <script type="text/javascript">
 	var keyCodes=new Array(10);
@@ -52,12 +66,19 @@
 
 <img src="forkit.gif" id="octocat" alt="" />
 
-<p>
+<div id="main">
+  <h1>
   Fork me? No, fork you!
-</p>
+</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit ipsam reiciendis dignissimos dolorem sunt dolor. Ipsam accusamus tempore qui numquam temporibus voluptates facere perspiciatis! Architecto voluptas blanditiis fugit assumenda.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit ipsam reiciendis dignissimos dolorem sunt dolor. Ipsam accusamus tempore qui numquam temporibus voluptates facere perspiciatis! Architecto voluptas blanditiis fugit assumenda.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit ipsam reiciendis dignissimos dolorem sunt dolor. Ipsam accusamus tempore qui numquam temporibus voluptates facere perspiciatis! Architecto voluptas blanditiis fugit assumenda.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit ipsam reiciendis dignissimos dolorem sunt dolor. Ipsam accusamus tempore qui numquam temporibus voluptates facere perspiciatis! Architecto voluptas blanditiis fugit assumenda.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit ipsam reiciendis dignissimos dolorem sunt dolor. Ipsam accusamus tempore qui numquam temporibus voluptates facere perspiciatis! Architecto voluptas blanditiis fugit assumenda.</p>
 <div id="rainbow-message" style="display:none">
 Double repositories all the way across the sky!<br/>
 <a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
+</div>
 </div>
 </body>
 </html>
